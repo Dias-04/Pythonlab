@@ -1,0 +1,35 @@
+N = int(input())
+K = int(input())
+
+t = K // N
+
+r = K % N
+
+"**********************"
+
+print(t)
+print(r)
+
+
+number = int(input())
+
+thousands = number // 1000
+hundreds = (number // 100) % 10
+tens = (number // 10) % 10
+units = number % 10
+
+print(f"The digit in the thousands position is {thousands}")
+print(f"The digit in the hundreds position is {hundreds}")
+print(f"The digit in the tens position is {tens}")
+print(f"The digit in the position of units is {units}")
+
+"**********************"
+
+import math
+
+population = int(input())
+
+survivors = math.ceil(population / 2)
+
+print(survivors)
+
