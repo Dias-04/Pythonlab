@@ -1,3 +1,4 @@
+TASK 1
 N = int(input())
 K = int(input())
 
@@ -6,6 +7,7 @@ t = K // N
 r = K % N
 
 "**********************"
+TASK 2
 
 print(t)
 print(r)
@@ -24,6 +26,7 @@ print(f"The digit in the tens position is {tens}")
 print(f"The digit in the position of units is {units}")
 
 "**********************"
+TASK 3
 
 import math
 
